@@ -1,7 +1,9 @@
-﻿# Aggie Marketing Association — Website
+# Aggie Marketing Association — Website
+
+**Live site: <https://aggie-marketing-association.github.io/>**
 
 Public site for the Aggie Marketing Association (AMA), a student-led organization
-at UC Davis. Single-page static site, no build step, no external dependencies.
+at UC Davis. Single-page static site: no build step, no external dependencies.
 
 ## Files
 
@@ -23,9 +25,9 @@ at UC Davis. Single-page static site, no build step, no external dependencies.
 
 ## Notes
 
+- This repository is named `<organization>.github.io`, so it is served at the
+  organization root URL rather than under a `/repository/` path.
 - The logo is embedded as base64 WebP inside `index.html`, so the page stays a
   single self-contained file and works offline.
-- The site lists current officers' UC Davis email addresses publicly. Replace
-  them with an organizational inbox if that becomes a problem.
-- If the repository name changes, the Pages URL changes with it
-  (`https://<user>.github.io/<repo>/`).
+- The site lists current officers' UC Davis email addresses publicly.
+- The legacy address `https://hyusu-png.github.io/ama-website/` redirects here.
